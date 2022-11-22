@@ -39,6 +39,7 @@ title = (bcolors.RED + """
                                                                                                              
 """+ bcolors.NORMAL)
 print (title)
+print ("Written by Logue & FNGCrysis\n")
 
 #Tricks to disable pesky SSL warnings
 requests.packages.urllib3.disable_warnings()
