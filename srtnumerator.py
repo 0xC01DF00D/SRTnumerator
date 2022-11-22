@@ -76,7 +76,7 @@ def lookupSingleUser(user, key):
 
     try:
         global outputFile
-        query = "https://platform.synack.com/api/targets/scz3994tx0/eligible_collaborators?search=" + user.strip()
+        query = "https://platform.synack.com/api/targets/szj09hr0lr/eligible_collaborators?search=" + user.strip()
         r = requests.get(query, headers={"Authorization":"Bearer " + key}, verify=False, timeout=1)
         print(r.status_code)
         name = json.loads(r.text)
